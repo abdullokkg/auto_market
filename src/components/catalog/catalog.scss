@@ -1,0 +1,50 @@
+.catalog {
+    flex-direction: column;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        font-family: "Edu AU VIC WA NT Hand", cursive;
+
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        gap: 30px 30px;
+        padding: 0px 100px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        .card {
+            border: 1px solid black;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            height: 320px;
+            gap: 10px;
+            border-radius: 15px;
+            padding: 10px;
+            flex-direction: column;
+
+            strong {
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+            }
+
+            h1 {
+                font-family: "Edu AU VIC WA NT Hand", cursive;
+                font-size: 30px;
+            }
+
+            img {
+                width: 200px;
+                height: 100px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

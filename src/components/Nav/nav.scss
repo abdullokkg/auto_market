@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    border-bottom: black 1px solid;
+
+    .nav_ul {
+        display: flex;
+        gap: 20px;
+
+        li {
+            list-style-type: none;
+            font-size: 14px;
+        }
+    }
+
+    .translator {
+        gap: 10px;
+
+        strong {
+            font-size: 15px;
+        }
+    }
+
+    .logo {
+        h1 {
+            font-size: 30px;
+            font-family: "Edu AU VIC WA NT Hand", cursive;
+        }
+    }
+}
